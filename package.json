@@ -1,15 +1,15 @@
 {
-  "name": "react-loader-spinner",
+  "name": "@arve.knudsen/react-loader-spinner",
   "version": "2.0.0",
-  "description": " react-spinner-loader provides simple React.js spinner component which can be implemented for async wait operation before data load to the view.",
+  "description": "react-spinner-loader provides simple React.js spinner component which can be implemented for async wait operation before data load to the view.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhnpd/react-loader-spinner"
+    "url": "https://github.com/aknuds1/react-loader-spinner"
   },
   "author": "Mohan Upadhyay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mhnpd/react-loader-spinner"
+    "url": "https://github.com/aknuds1/react-loader-spinner"
   },
   "homepage": "https://mhnpd.github.io/react-loader-spinner/",
   "keywords": [
@@ -40,26 +40,25 @@
     "babel-eslint": "^8.2.2",
     "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
     "babel-polyfill": "^6.7.4",
-    "babel-preset-env": "^6.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "chai": "^4.1.2",
     "enzyme": "^3.3.0",
-    "eslint": "^4.19.1",
+    "eslint": "*",
+    "eslint-config-equimper": "*",
+    "eslint-config-prettier": "*",
     "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "^7.7.0",
     "jsdom": "^11.6.2",
     "mocha": "^5.0.5",
     "nodemon": "^1.17.2",
+    "prettier": "*",
     "react": "^16.2.0",
     "react-addons-test-utils": "^15.0.0",
     "react-dom": "^16.2.0",
-    "sinon": "^4.4.8",
-    "eslint": "*",
-    "eslint-config-equimper": "*",
-    "eslint-config-prettier": "*",
-    "eslint-plugin-prettier": "*",
-    "prettier": "*"
+    "sinon": "^4.4.8"
   },
   "peerDependencies": {
     "prop-types": "^15.6.1",
